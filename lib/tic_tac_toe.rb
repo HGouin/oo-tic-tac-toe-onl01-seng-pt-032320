@@ -80,7 +80,11 @@ class TicTacToe
   end
 
   def over?
+<<<<<<< HEAD
     won? || draw?
+=======
+    full? || won?
+>>>>>>> 944331e0140f4da79376174ceff6750fdbcb3a5a
   end
 
   def winner
@@ -94,9 +98,15 @@ class TicTacToe
     end
 
     if won?
+<<<<<<< HEAD
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
+=======
+      puts "Congrats, #{winner}! You won!"
+    elsif draw?
+      puts "It was a draw"
+>>>>>>> 944331e0140f4da79376174ceff6750fdbcb3a5a
     end
   end
 
